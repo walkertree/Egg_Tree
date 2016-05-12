@@ -13,11 +13,14 @@
 		440BF9AD1CB5F45B006D32AB /* eggTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 440BF9AC1CB5F45B006D32AB /* eggTreeTests.m */; };
 		440BF9B81CB5F45B006D32AB /* eggTreeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 440BF9B71CB5F45B006D32AB /* eggTreeUITests.m */; };
 		440BF9C81CB5FA97006D32AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 440BF9C71CB5FA97006D32AB /* Assets.xcassets */; };
-		440BF9CE1CB60412006D32AB /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440BF9CD1CB60412006D32AB /* JSViewController.m */; };
-		440BF9D11CB6048C006D32AB /* JSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440BF9D01CB6048C006D32AB /* JSNavigationController.m */; };
 		440BF9D41CB60591006D32AB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440BF9D31CB60591006D32AB /* MainViewController.m */; };
 		440BF9D71CB63548006D32AB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 440BF9D91CB63548006D32AB /* Localizable.strings */; };
 		440BF9E11CB6397E006D32AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 440BF9E31CB6397E006D32AB /* InfoPlist.strings */; };
+		44D8E9811CE1DC9700B86FF2 /* UI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D8E9801CE1DC9700B86FF2 /* UI.storyboard */; };
+		44D8E9851CE479C600B86FF2 /* JSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E9841CE479C600B86FF2 /* JSButton.m */; };
+		44D8E98B1CE47FE600B86FF2 /* JSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E9881CE47FE600B86FF2 /* JSNavigationController.m */; };
+		44D8E98C1CE47FE600B86FF2 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E98A1CE47FE600B86FF2 /* JSViewController.m */; };
+		44D8E9911CE4832400B86FF2 /* JSBaseFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E9901CE4832400B86FF2 /* JSBaseFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,16 +54,22 @@
 		440BF9B91CB5F45B006D32AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		440BF9C71CB5FA97006D32AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		440BF9C91CB5FB4B006D32AB /* EggTree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EggTree-Prefix.pch"; sourceTree = "<group>"; };
-		440BF9CC1CB60412006D32AB /* JSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
-		440BF9CD1CB60412006D32AB /* JSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
-		440BF9CF1CB6048C006D32AB /* JSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNavigationController.h; sourceTree = "<group>"; };
-		440BF9D01CB6048C006D32AB /* JSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNavigationController.m; sourceTree = "<group>"; };
 		440BF9D21CB60591006D32AB /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		440BF9D31CB60591006D32AB /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		440BF9DA1CB6354A006D32AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		440BF9DC1CB635A6006D32AB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		440BF9E21CB6397E006D32AB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		440BF9E41CB63981006D32AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44D8E9801CE1DC9700B86FF2 /* UI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = UI.storyboard; path = eggTree/UI.storyboard; sourceTree = "<group>"; };
+		44D8E9831CE479C600B86FF2 /* JSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSButton.h; sourceTree = "<group>"; };
+		44D8E9841CE479C600B86FF2 /* JSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSButton.m; sourceTree = "<group>"; };
+		44D8E9871CE47FE600B86FF2 /* JSNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSNavigationController.h; sourceTree = "<group>"; };
+		44D8E9881CE47FE600B86FF2 /* JSNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSNavigationController.m; sourceTree = "<group>"; };
+		44D8E9891CE47FE600B86FF2 /* JSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
+		44D8E98A1CE47FE600B86FF2 /* JSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
+		44D8E98E1CE480E400B86FF2 /* JSBaseHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBaseHeader.h; sourceTree = "<group>"; };
+		44D8E98F1CE4832400B86FF2 /* JSBaseFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSBaseFunction.h; sourceTree = "<group>"; };
+		44D8E9901CE4832400B86FF2 /* JSBaseFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSBaseFunction.m; sourceTree = "<group>"; };
 		5A9F644053BA71BA653C1D39 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		CBEF9A3D234C45725675FF16 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		FCDE8801FC39A6306C9CF414 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +104,7 @@
 		440BF9861CB5F45B006D32AB = {
 			isa = PBXGroup;
 			children = (
+				44D8E9801CE1DC9700B86FF2 /* UI.storyboard */,
 				440BF9911CB5F45B006D32AB /* eggTree */,
 				440BF9AB1CB5F45B006D32AB /* eggTreeTests */,
 				440BF9B61CB5F45B006D32AB /* eggTreeUITests */,
@@ -185,12 +195,41 @@
 		440BF9CB1CB603AA006D32AB /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				440BF9CC1CB60412006D32AB /* JSViewController.h */,
-				440BF9CD1CB60412006D32AB /* JSViewController.m */,
-				440BF9CF1CB6048C006D32AB /* JSNavigationController.h */,
-				440BF9D01CB6048C006D32AB /* JSNavigationController.m */,
+				44D8E98D1CE480E400B86FF2 /* JSFunction */,
+				44D8E9861CE47FE600B86FF2 /* JSController */,
+				44D8E9821CE479B400B86FF2 /* JSView */,
 			);
 			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		44D8E9821CE479B400B86FF2 /* JSView */ = {
+			isa = PBXGroup;
+			children = (
+				44D8E9831CE479C600B86FF2 /* JSButton.h */,
+				44D8E9841CE479C600B86FF2 /* JSButton.m */,
+			);
+			path = JSView;
+			sourceTree = "<group>";
+		};
+		44D8E9861CE47FE600B86FF2 /* JSController */ = {
+			isa = PBXGroup;
+			children = (
+				44D8E9871CE47FE600B86FF2 /* JSNavigationController.h */,
+				44D8E9881CE47FE600B86FF2 /* JSNavigationController.m */,
+				44D8E9891CE47FE600B86FF2 /* JSViewController.h */,
+				44D8E98A1CE47FE600B86FF2 /* JSViewController.m */,
+			);
+			path = JSController;
+			sourceTree = "<group>";
+		};
+		44D8E98D1CE480E400B86FF2 /* JSFunction */ = {
+			isa = PBXGroup;
+			children = (
+				44D8E98F1CE4832400B86FF2 /* JSBaseFunction.h */,
+				44D8E9901CE4832400B86FF2 /* JSBaseFunction.m */,
+				44D8E98E1CE480E400B86FF2 /* JSBaseHeader.h */,
+			);
+			path = JSFunction;
 			sourceTree = "<group>";
 		};
 		8810AD1FAC9C8AA027D6A954 /* Frameworks */ = {
@@ -318,6 +357,7 @@
 			files = (
 				440BF9C81CB5FA97006D32AB /* Assets.xcassets in Resources */,
 				440BF9E11CB6397E006D32AB /* InfoPlist.strings in Resources */,
+				44D8E9811CE1DC9700B86FF2 /* UI.storyboard in Resources */,
 				440BF9D71CB63548006D32AB /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,9 +416,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				440BF9D11CB6048C006D32AB /* JSNavigationController.m in Sources */,
+				44D8E9911CE4832400B86FF2 /* JSBaseFunction.m in Sources */,
 				440BF9971CB5F45B006D32AB /* AppDelegate.m in Sources */,
-				440BF9CE1CB60412006D32AB /* JSViewController.m in Sources */,
+				44D8E98C1CE47FE600B86FF2 /* JSViewController.m in Sources */,
+				44D8E9851CE479C600B86FF2 /* JSButton.m in Sources */,
+				44D8E98B1CE47FE600B86FF2 /* JSNavigationController.m in Sources */,
 				440BF9D41CB60591006D32AB /* MainViewController.m in Sources */,
 				440BF9941CB5F45B006D32AB /* main.m in Sources */,
 			);
