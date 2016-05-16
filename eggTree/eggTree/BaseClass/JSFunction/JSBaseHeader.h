@@ -13,7 +13,7 @@
 
 
 // LTS(@"test")  本地化文件
-#define JSLTS(a) NSLocalizedStringFromTable(a, @"Localization",@"")
+#define JSLTS(a) NSLocalizedStringFromTable(a, @"Localizable",@"")
 #define JSIMAGE(a) ([UIImage imageNamed:(a)])
 #define JSFONTWITHSIZE(a) ([UIFont systemFontOfSize:(a)])
 #define JSFONTWITHBLODSIZE(a)  ([UIFont boldSystemFontOfSize:(a)])

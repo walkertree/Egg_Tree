@@ -19,6 +19,14 @@
     return self;
 }
 
+- (void) setEventTouchUpInside:(EventTouchUpInside)eventTouchUpInside
+{
+    if(self.eventTouchUpInside != eventTouchUpInside)
+    {
+        _eventTouchUpInside = eventTouchUpInside;
+        [self addEventTouchUpInside];
+    }
+}
 
 - (void) addEventTouchUpInside
 {

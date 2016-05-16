@@ -11,5 +11,6 @@
 
 #import "JSBaseHeader.h"
 #import "JSBaseFunction.h"
+#import "JSButton.h"
 
 #endif /* EggTree_Prefix_pch */

@@ -16,6 +16,7 @@
 		440BF9D41CB60591006D32AB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440BF9D31CB60591006D32AB /* MainViewController.m */; };
 		440BF9D71CB63548006D32AB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 440BF9D91CB63548006D32AB /* Localizable.strings */; };
 		440BF9E11CB6397E006D32AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 440BF9E31CB6397E006D32AB /* InfoPlist.strings */; };
+		44CC32BA1CE9C4F10073FCCA /* RemindView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CC32B91CE9C4F10073FCCA /* RemindView.m */; };
 		44D8E9811CE1DC9700B86FF2 /* UI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D8E9801CE1DC9700B86FF2 /* UI.storyboard */; };
 		44D8E9851CE479C600B86FF2 /* JSButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E9841CE479C600B86FF2 /* JSButton.m */; };
 		44D8E98B1CE47FE600B86FF2 /* JSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D8E9881CE47FE600B86FF2 /* JSNavigationController.m */; };
@@ -60,6 +61,8 @@
 		440BF9DC1CB635A6006D32AB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		440BF9E21CB6397E006D32AB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		440BF9E41CB63981006D32AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		44CC32B81CE9C4F10073FCCA /* RemindView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindView.h; sourceTree = "<group>"; };
+		44CC32B91CE9C4F10073FCCA /* RemindView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindView.m; sourceTree = "<group>"; };
 		44D8E9801CE1DC9700B86FF2 /* UI.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = UI.storyboard; path = eggTree/UI.storyboard; sourceTree = "<group>"; };
 		44D8E9831CE479C600B86FF2 /* JSButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSButton.h; sourceTree = "<group>"; };
 		44D8E9841CE479C600B86FF2 /* JSButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSButton.m; sourceTree = "<group>"; };
@@ -127,6 +130,7 @@
 		440BF9911CB5F45B006D32AB /* eggTree */ = {
 			isa = PBXGroup;
 			children = (
+				44CC32B71CE9C37E0073FCCA /* View */,
 				440BF9CB1CB603AA006D32AB /* BaseClass */,
 				440BF9CA1CB602CA006D32AB /* ViewController */,
 				440BF9C51CB5FA83006D32AB /* Other Sources */,
@@ -200,6 +204,15 @@
 				44D8E9821CE479B400B86FF2 /* JSView */,
 			);
 			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		44CC32B71CE9C37E0073FCCA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44CC32B81CE9C4F10073FCCA /* RemindView.h */,
+				44CC32B91CE9C4F10073FCCA /* RemindView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		44D8E9821CE479B400B86FF2 /* JSView */ = {
@@ -417,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D8E9911CE4832400B86FF2 /* JSBaseFunction.m in Sources */,
+				44CC32BA1CE9C4F10073FCCA /* RemindView.m in Sources */,
 				440BF9971CB5F45B006D32AB /* AppDelegate.m in Sources */,
 				44D8E98C1CE47FE600B86FF2 /* JSViewController.m in Sources */,
 				44D8E9851CE479C600B86FF2 /* JSButton.m in Sources */,
